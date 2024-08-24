@@ -1,0 +1,40 @@
+
+.conteiner-sidebar{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;  
+}
+
+.materias-sidebar h2 {
+    text-align: center; 
+    color: white;
+}
+
+.materias-sidebar{
+    width: 100%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+} 
+
+.materias-sidebar ul {
+    list-style-type: none; 
+    padding:0;
+    margin: 0;
+    text-align: center; 
+}
+
+
+.materias-sidebar ul li {
+    margin: 10px 0;
+}:hover{
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ 
