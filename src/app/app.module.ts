@@ -7,6 +7,14 @@ import { HeaderComponent } from './app/componentes/header/header.component';
 import { SectionComponent } from './app/componentes/section/section.component';
 import { SideBarComponent } from './app/componentes/side-bar/side-bar.component';
 import { FooterComponent } from './app/componentes/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MaterialModule } from './app/modules/material/material.module';
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -14,11 +22,16 @@ import { FooterComponent } from './app/componentes/footer/footer.component';
     HeaderComponent,
     SectionComponent,
     SideBarComponent,
-    FooterComponent
+    FooterComponent,
+    
+    
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
